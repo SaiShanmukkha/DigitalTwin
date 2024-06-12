@@ -1,0 +1,235 @@
+{
+  "sections": [
+    {
+      "header": "Forklift Fleet Information",
+      "questions": [
+        {
+          "type": "radio",
+          "multiselect": false,
+          "question": "How many forklifts do you currently have in your fleet?",
+          "columnName": "fleetSize",
+          "hasOtherOption": false,
+          "options": [
+            "<5",
+            "5 to 10",
+            ">10"
+          ]
+        },
+        {
+          "type": "input",
+          "question": "Can you provide a list of forklift models and their specifications?",
+          "fieldCount": 2,
+          "fields": [
+            {
+              "fieldType": "text",
+              "fieldName": "Manufacturer",
+              "columnName": "forkliftModelsAndSpecs_Manufacturer"
+            },
+            {
+              "fieldType": "text",
+              "fieldName": "Model",
+              "columnName": "forkliftModelsAndSpecs_Model"
+            }
+          ]
+        },
+        {
+          "type": "input",
+          "question": "What are the age and load capacity of each forklift?",
+          "fieldCount": 2,
+          "fields": [
+            {
+              "fieldType": "text",
+              "fieldName": "Year of Manufacture",
+              "columnName": "forkliftAgeAndCapacity_YearOfManufacture"
+            },
+            {
+              "fieldType": "text",
+              "fieldName": "Load capacity",
+              "columnName": "forkliftAgeAndCapacity_LoadCapacity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "Power Source Details",
+      "questions": [
+        {
+          "type": "input",
+          "question": "What type of power sources do your forklifts use?",
+          "fieldCount": 3,
+          "fields": [
+            {
+              "fieldType": "number",
+              "fieldName": "Number of electric forklifts",
+              "columnName": "powerSources_ElectricForklifts"
+            },
+            {
+              "fieldType": "number",
+              "fieldName": "Number of gas forklifts",
+              "columnName": "powerSources_GasForklifts"
+            },
+            {
+              "fieldType": "number",
+              "fieldName": "Number of diesel forklifts",
+              "columnName": "powerSources_DieselForklifts"
+            }
+          ]
+        },
+        {
+          "type": "input",
+          "question": "For electric forklifts, what type of batteries do you use and how are they charged?",
+          "fieldCount": 2,
+          "fields": [
+            {
+              "fieldType": "text",
+              "fieldName": "Type of batteries",
+              "columnName": "electricForkliftBatteries_Type"
+            },
+            {
+              "fieldType": "text",
+              "fieldName": "Source of charging",
+              "columnName": "electricForkliftBatteries_ChargingSource"
+            }
+          ]
+        },
+        {
+          "type": "input",
+          "question": "For gas and diesel forklifts, how is fuel managed and stored?",
+          "fieldCount": 1,
+          "fields": [
+            {
+              "fieldType": "text",
+              "fieldName": "Fuel Storage",
+              "columnName": "fuelManagementAndStorage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "Scope Of Digital Twin",
+      "questions": [
+        {
+          "type": "radio",
+          "multiselect": false,
+          "question": "What level of monitoring and optimization at the warehouse level, forklift level, or forklift operator level?",
+          "columnName": "monitoringLevel",
+          "hasOtherOption": false,
+          "options": [
+            "Warehouse",
+            "Forklift",
+            "Forklift Operator"
+          ]
+        },
+        {
+          "type": "radio",
+          "multiselect": false,
+          "question": "Can you provide details on your warehouse layout and zones?",
+          "columnName": "warehouseLayoutDetails",
+          "hasOtherOption": false,
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": "input",
+          "question": "What type of data are you currently collecting on forklift usage and maintenance?",
+          "fieldCount": 1,
+          "fields": [
+            {
+              "fieldType": "text",
+              "fieldName": "Forklift Usage Data",
+              "columnName": "dataOnForkliftUsageAndMaintenance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "Problem Solving Focus",
+      "questions": [
+        {
+          "type": "radio",
+          "multiselect": true,
+          "question": "What are the primary ergonomic issues faced by your forklift operators?",
+          "columnName": "primaryErgonomicIssues",
+          "hasOtherOption": true,
+          "options": [
+            "Operator Ergonomics",
+            "Improve overall Throughput",
+            "Reduce number of Incidents",
+            "Improve safety conditions",
+            "Vibrations",
+            "Other"
+          ]
+        },
+        {
+          "type": "input",
+          "question": "Are there specific areas where you need to improve throughput?",
+          "fieldCount": 1,
+          "fields": [
+            {
+              "fieldType": "text",
+              "fieldName": "Improvement Areas",
+              "columnName": "areasToImproveThroughput"
+            }
+          ]
+        },
+        {
+          "type": "radio",
+          "multiselect": false,
+          "question": "Can you provide details on the types and frequency of incidents occurring?",
+          "columnName": "incidentDetails",
+          "hasOtherOption": false,
+          "options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ]
+    },
+    {
+      "header": "Data And User Requirements",
+      "questions": [
+        {
+          "type": "input",
+          "question": "How do you currently collect data on forklift operations and operator ergonomics?",
+          "fieldCount": 1,
+          "fields": [
+            {
+              "fieldType": "text",
+              "fieldName": "Data Collection Methods",
+              "columnName": "dataCollectionMethods"
+            }
+          ]
+        },
+        {
+          "type": "radio",
+          "multiselect": false,
+          "question": "Who will be the primary users of this dashboard, and what are their specific needs?",
+          "columnName": "primaryDashboardUsers",
+          "hasOtherOption": true,
+          "options": [
+            "Supervisor",
+            "Manager",
+            "Top level Management",
+            "Other"
+          ]
+        },
+        {
+          "type": "radio",
+          "multiselect": false,
+          "question": "Do you need the dashboard customizable in terms of reports and visualizations?",
+          "columnName": "dashboardCustomization",
+          "hasOtherOption": false,
+          "options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ]
+    }
+  ]
+}

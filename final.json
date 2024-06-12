@@ -1,0 +1,48 @@
+{
+    "Operator": [
+        {
+            "Ref": "https://www.movella.com/products/wearables?hsCtaTracking=fe4949e7-e6fa-4782-bb72-016082887151%7C69eb5313-452e-4312-afd4-640498d8ca6d",
+            "Title": "Leading edge wearables for IMUs"
+        },
+        {
+            "Ref": "https://lightbuzz.com/",
+            "Title": "Realtime Body tracking"
+        },
+        {
+            "Ref": "https://tumeke.webflow.io/product/tumeke-suite",
+            "Title": "AI ergonomics risk assessment platform. Powered by the latest in Computer Vision."
+        }
+    ],
+    "Forklift": [
+        {
+            "Ref": "https://www.yale.com/en-us/north-america/technology/",
+            "Title": "Tech-enabled lift truck solutions"
+        },
+        {
+            "Ref": "https://www.triomobil.com/en/forklift-safety-and-tracking",
+            "Title": "TRIOMOBIL Forklift Safety & Collision Avoidance System"
+        }
+    ],
+    "Warehouse": [
+        {
+            "Ref": "https://azure.microsoft.com/en-us/products/digital-twins",
+            "Title": "Microsoft Azure"
+        },
+        {
+            "Ref": "https://unity.com/solutions/digital-twin-applications-and-use-cases#manufacturing",
+            "Title": "Unity 3D"
+        },
+        {
+            "Ref": "https://www.nvidia.com/en-us/omniverse/solutions/digital-twins/",
+            "Title": "NVIDIA"
+        },
+        {
+            "Ref": "https://fsstudio.com/case-studies/forklift-case-study/",
+            "Title": "FSStudio using LIDAR, Unity"
+        },
+        {
+            "Ref": "https://www.sewio.net/digital-twin-for-maximizing-optimalization/",
+            "Title": "Digital twin with RTLS and improve daily operations"
+        }
+    ]
+}
