@@ -99,21 +99,21 @@ export default function Home() {
     console.log(responses);
     const d = responses["primaryErgonomicIssues"];
     responses["primaryErgonomicIssues"] = JSON.stringify(d);
-    fetch("/api/excel", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(responses),
-    })
-      .then((response) => {
-        if (response.ok) {
-          setSubmitted(true);
-        } else {
-          console.error("Error submitting form");
-        }
-      })
-      .catch((error) => console.error("Error submitting form:", error));
+    // fetch("/api/excel", {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    //   body: JSON.stringify(responses),
+    // })
+    //   .then((response) => {
+    //     if (response.ok) {
+    //       setSubmitted(true);
+    //     } else {
+    //       console.error("Error submitting form");
+    //     }
+    //   })
+    //   .catch((error) => console.error("Error submitting form:", error));
 
     setSubmitted(true);
     const requestBody = {
