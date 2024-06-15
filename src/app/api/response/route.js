@@ -6,8 +6,6 @@ export async function POST(req) {
   const filePath = path.join(process.cwd(), 'final.json');
   const body = await req.json();
 
-  print(body)
-
   try {
     const data = fs.readFileSync(filePath, 'utf8');
     const resp = JSON.parse(data);
