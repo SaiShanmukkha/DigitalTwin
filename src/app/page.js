@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 export default function Home() {
   const [questions, setQuestions] = useState(null);
@@ -148,6 +149,22 @@ export default function Home() {
             <div key={e.Ref} className="bg-gray-800 rounded-lg p-6 flex flex-col justify-between">
               <h2 className="font-extrabold text-2xl mb-4">{e.Title}</h2>
               <a className="text-blue-400" target="_blank" href={e.Ref}>Click here</a>
+              <div className="flex flex-row flex-wrap m-2 gap-10">
+                {
+                  e.Images.map((f) => {
+                    return (
+                      <div key={f} className="w-full h-[240px] relative">
+                        <Image
+                          src={`/${f}`}
+                          alt={f}
+                          layout="fill"
+                          objectFit="cover"
+                        />
+                      </div>
+                    );
+                  })
+                }
+              </div>
             </div>
           ))}
         </div>

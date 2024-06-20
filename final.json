@@ -2,47 +2,57 @@
     "Forklift Operator": [
         {
             "Ref": "https://www.movella.com/products/wearables?hsCtaTracking=fe4949e7-e6fa-4782-bb72-016082887151%7C69eb5313-452e-4312-afd4-640498d8ca6d",
-            "Title": "Leading edge wearables for IMUs"
+            "Title": "Leading edge wearables for IMUs",
+            "Images": ["1.1_Operator.jpg", "1.2_Operator.jpg"]
         },
         {
             "Ref": "https://lightbuzz.com/",
-            "Title": "Realtime Body tracking"
+            "Title": "Realtime Body tracking",
+            "Images": ["2.1_Operator.jpg", "2.2_Operator.png", "2.3_Operator.png"]
         },
         {
             "Ref": "https://tumeke.webflow.io/product/tumeke-suite",
-            "Title": "AI ergonomics risk assessment platform. Powered by the latest in Computer Vision."
+            "Title": "AI ergonomics risk assessment platform. Powered by the latest in Computer Vision.",
+            "Images": ["3.1_Operator.png", "3.2_Operator.png"]
         }
     ],
     "Forklift": [
         {
             "Ref": "https://www.yale.com/en-us/north-america/technology/",
-            "Title": "Tech-enabled lift truck solutions"
+            "Title": "Tech-enabled lift truck solutions",
+            "Images": []
         },
         {
             "Ref": "https://www.triomobil.com/en/forklift-safety-and-tracking",
-            "Title": "TRIOMOBIL Forklift Safety & Collision Avoidance System"
+            "Title": "TRIOMOBIL Forklift Safety & Collision Avoidance System",
+            "Images": ["5.1_Forklift.png"]
         }
     ],
     "Warehouse": [
         {
             "Ref": "https://azure.microsoft.com/en-us/products/digital-twins",
-            "Title": "Microsoft Azure"
+            "Title": "Microsoft Azure",
+            "Images": ["6.1_Warehouse.png"]
         },
         {
             "Ref": "https://unity.com/solutions/digital-twin-applications-and-use-cases#manufacturing",
-            "Title": "Unity 3D"
+            "Title": "Unity 3D",
+            "Images": ["7.1_Warehouse.png", "7.2_Warehouse.png"]
         },
         {
             "Ref": "https://www.nvidia.com/en-us/omniverse/solutions/digital-twins/",
-            "Title": "NVIDIA"
+            "Title": "NVIDIA",
+            "Images": ["8.1_Warehouse.png", "8.2_Warehouse.png"]
         },
         {
             "Ref": "https://fsstudio.com/case-studies/forklift-case-study/",
-            "Title": "FSStudio using LIDAR, Unity"
+            "Title": "FSStudio using LIDAR, Unity",
+            "Images": ["9.1_Warehouse.png", "9.2_Warehouse.png"]
         },
         {
             "Ref": "https://www.sewio.net/digital-twin-for-maximizing-optimalization/",
-            "Title": "Digital twin with RTLS and improve daily operations"
+            "Title": "Digital twin with RTLS and improve daily operations",
+            "Images": ["10.1_Warehouse.png", "10.2_Warehouse.png","10.3_Warehouse.png"]
         }
     ]
 }
