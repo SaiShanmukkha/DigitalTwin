@@ -149,7 +149,7 @@ export default function Home() {
             <div key={e.Ref} className="bg-gray-800 rounded-lg p-6 flex flex-col justify-between">
               <h2 className="font-extrabold text-2xl mb-4">{e.Title}</h2>
               <a className="text-blue-400" target="_blank" href={e.Ref}>Click here</a>
-              <div className="flex flex-row flex-wrap m-2 gap-10">
+              <div className="flex flex-row items-start justify-start flex-wrap m-2 gap-10">
                 {
                   e.Images.map((f) => {
                     return (
